@@ -19,7 +19,7 @@ Preprocessing: We have followed the following steps for preprocessing:
 #### Before Preprocessing:
 ![plot](./images/1.png)
 #### After Preprocessing:
-
+![plot](./images/2.png)
 
 #### Unigram Inverted Index Data Structure:
 We have implemented this data structure using a dictionary. We simply iterate thorugh the documents (which are already sorted in ascending order) and store the indexes of documents for every word in the corpus in a set. As the order of documents is increasing, the resulting documents are also sorted in ascending order which makes if more efficient while performing union or intersection operations.
@@ -27,7 +27,9 @@ We have implemented this data structure using a dictionary. We simply iterate th
 
 Finally, We merge the sets according to the input queries and operations. ‘NOT’ operations are done first followed by ‘AND’ and ‘OR’ operations.
 The results of the given inputs are as follows:
-
+![plot](./images/3.png)
+![plot](./images/4.png)
+![plot](./images/5.png)
 
 #### Duplicate Runtime:
 Upload zip file of the dataset.
