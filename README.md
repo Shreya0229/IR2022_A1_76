@@ -28,7 +28,6 @@ We have implemented this data structure using a dictionary. We simply iterate th
 Finally, We merge the sets according to the input queries and operations. ‘NOT’ operations are done first followed by ‘AND’ and ‘OR’ operations.
 The results of the given inputs are as follows:
 ![plot](./images/3.png)
-![plot](./images/4.png)
 ![plot](./images/5.png)
 
 #### Duplicate Runtime:
@@ -43,12 +42,7 @@ The positional index data structure is created using a dictionary and lists by e
  
 The query is taken as input from the user. The support for the query which is a phrase query is done. If the length of the query word after preprocessing the query word is 1 then only the single word is used to retrieve the documents. 
 On the other hand, if we have more than one word in the query after preprocessing the query word, then for each of these consecutive words the documents are retrieved as shown in the code. 
-![plot](./images/8.png)
 
 The output is the number of documents retrieved and the list of document names retrieved.
 For example, 
-
-
-
-
-
+![plot](./images/8.png)
