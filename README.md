@@ -38,6 +38,7 @@ Run all the cells.
 I have read all the files given in the dataset. For preprocessing, firstly all the text is converted to lower case text. It is then tokenized using Tweektokenizer and the stopwords are removed form it. The punctuations like bracket, comma, semicolon, colon, etc. are removed. Then it is stripped and any black space token available are removed. 
 
 The positional index data structure is created using a dictionary and lists by enumerating the tokens which we have got after preprocessing.
+
 ![plot](./images/7.png)
  
 The query is taken as input from the user. The support for the query which is a phrase query is done. If the length of the query word after preprocessing the query word is 1 then only the single word is used to retrieve the documents. 
