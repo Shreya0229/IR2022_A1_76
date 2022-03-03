@@ -17,7 +17,7 @@ Preprocessing: We have followed the following steps for preprocessing:
 - The final step of preprocessing is lemmatization.
 
 #### Before Preprocessing:
-
+![plot](./images/1.png)
 #### After Preprocessing:
 
 
